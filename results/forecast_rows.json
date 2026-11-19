@@ -1,0 +1,782 @@
+[
+  {
+    "task": "stock",
+    "model": "gpt-oss-20b",
+    "variant": "baseline",
+    "cutoff": "2021-12",
+    "period": "seen",
+    "last": 0.0,
+    "actual": [
+      -20.58
+    ],
+    "valid": true,
+    "forecast": [
+      -5.2
+    ],
+    "low": -8.0,
+    "high": -2.4,
+    "direction": "down",
+    "confidence": 70.0,
+    "drivers": [
+      "higher 10\u2011year yield",
+      "moderate fed\u2011funds tightening"
+    ],
+    "reasoning": "Recent yield rise and slight fed\u2011funds increase suggest a modest sell\u2011off in equity valuations, leading to a small downtrend in the S&P 500 over the next six months.",
+    "spread": null,
+    "mae": 15.378324780012502,
+    "naive_mae": 20.5783247800125,
+    "dir_hit": "True",
+    "covered": "False"
+  },
+  {
+    "task": "stock",
+    "model": "gpt-oss-20b",
+    "variant": "baseline",
+    "cutoff": "2022-06",
+    "period": "seen",
+    "last": 0.0,
+    "actual": [
+      1.43
+    ],
+    "valid": true,
+    "forecast": [
+      -1.5
+    ],
+    "low": -3.0,
+    "high": -0.5,
+    "direction": "down",
+    "confidence": 60.0,
+    "drivers": [
+      "tightening monetary policy",
+      "higher bond yields"
+    ],
+    "reasoning": "Recent rate hikes have raised borrowing costs and weighed on valuation multiples, suggesting a modest downside for the S&P 500 over the next six months.",
+    "spread": null,
+    "mae": 2.9297111518526417,
+    "naive_mae": 1.4297111518526417,
+    "dir_hit": "False",
+    "covered": "False"
+  },
+  {
+    "task": "stock",
+    "model": "gpt-oss-20b",
+    "variant": "baseline",
+    "cutoff": "2022-12",
+    "period": "seen",
+    "last": 0.0,
+    "actual": [
+      15.91
+    ],
+    "valid": true,
+    "forecast": [
+      -5.2
+    ],
+    "low": -8.5,
+    "high": -2.0,
+    "direction": "down",
+    "confidence": 70.0,
+    "drivers": [
+      "rate hike cycle",
+      "inflation expectations"
+    ],
+    "reasoning": "The recent rapid rise in the federal funds rate and 10\u2011year yield has tightened financing conditions, likely putting downward pressure on equity valuations over the next six months.",
+    "spread": null,
+    "mae": 21.110405000651127,
+    "naive_mae": 15.910405000651128,
+    "dir_hit": "False",
+    "covered": "False"
+  },
+  {
+    "task": "stock",
+    "model": "gpt-oss-20b",
+    "variant": "baseline",
+    "cutoff": "2024-12",
+    "period": "unseen",
+    "last": 0.0,
+    "actual": [
+      5.5
+    ],
+    "valid": true,
+    "forecast": [
+      3.0
+    ],
+    "low": 1.0,
+    "high": 5.0,
+    "direction": "up",
+    "confidence": 70.0,
+    "drivers": [
+      "10\u2011year yield rise",
+      "inflation easing"
+    ],
+    "reasoning": "The recent drop in the federal funds rate has put pressure on rates, while the 10\u2011year Treasury has risen, signalling continued demand for equities; combined with a moderate decline in inflation, this points to a modest upside for the S&P 500 over the next six months.",
+    "spread": null,
+    "mae": 2.497115595506674,
+    "naive_mae": 5.497115595506674,
+    "dir_hit": "True",
+    "covered": "False"
+  },
+  {
+    "task": "stock",
+    "model": "gpt-oss-20b",
+    "variant": "baseline",
+    "cutoff": "2025-06",
+    "period": "unseen",
+    "last": 0.0,
+    "actual": [
+      10.32
+    ],
+    "valid": true,
+    "forecast": [
+      6.3
+    ],
+    "low": 4.0,
+    "high": 8.0,
+    "direction": "up",
+    "confidence": 70.0,
+    "drivers": [
+      "lower borrowing costs",
+      "stable inflation"
+    ],
+    "reasoning": "The modest drop in the federal funds rate and sustained inflation near target support equity valuation growth, leading to an estimated 5\u20117% rise in the S&P 500 over the next six months.",
+    "spread": null,
+    "mae": 4.0232096954850585,
+    "naive_mae": 10.323209695485058,
+    "dir_hit": "True",
+    "covered": "False"
+  },
+  {
+    "task": "stock",
+    "model": "gpt-oss-20b",
+    "variant": "baseline",
+    "cutoff": "2025-12",
+    "period": "unseen",
+    "last": 0.0,
+    "actual": [
+      9.55
+    ],
+    "valid": true,
+    "forecast": [
+      1.8
+    ],
+    "low": 0.5,
+    "high": 3.2,
+    "direction": "up",
+    "confidence": 78.0,
+    "drivers": [
+      "Lower long-term yields",
+      "Stable inflation"
+    ],
+    "reasoning": "Continued easing of rates and modest inflation support equity demand, likely driving a modest rise in the S&P 500 over the next six months.",
+    "spread": null,
+    "mae": 7.751676283690004,
+    "naive_mae": 9.551676283690004,
+    "dir_hit": "True",
+    "covered": "False"
+  },
+  {
+    "task": "oil",
+    "model": "gpt-oss-20b",
+    "variant": "baseline",
+    "cutoff": "2021-12",
+    "period": "seen",
+    "last": 71.71,
+    "actual": [
+      83.22,
+      91.64,
+      108.5,
+      101.78,
+      109.55,
+      114.84
+    ],
+    "valid": true,
+    "forecast": [
+      64.0,
+      67.0,
+      65.5,
+      64.0,
+      62.0,
+      60.0
+    ],
+    "low": 55.0,
+    "high": 65.0,
+    "direction": "down",
+    "confidence": 70.0,
+    "reasoning": "Recent 2021 prices show a clear decline from a peak in October; a modest downward trend is expected to continue into early 2022 with volatility narrowing around the low\u201160s.",
+    "spread": null,
+    "samples": 1,
+    "mae": 37.83833333333333,
+    "naive_mae": 29.87833333333334,
+    "dir_hit": false,
+    "covered": false
+  },
+  {
+    "task": "oil",
+    "model": "gpt-oss-20b",
+    "variant": "baseline",
+    "cutoff": "2022-06",
+    "period": "seen",
+    "last": 114.84,
+    "actual": [
+      101.62,
+      93.67,
+      84.26,
+      87.55,
+      84.37,
+      76.44
+    ],
+    "valid": true,
+    "forecast": [
+      118.6,
+      122.4,
+      126.1,
+      129.9,
+      133.6,
+      137.4
+    ],
+    "low": 125.0,
+    "high": 145.0,
+    "direction": "up",
+    "confidence": 70.0,
+    "reasoning": "The price has been increasing roughly 3.8\u202fUSD per month over the past 18 months, suggesting a continued upward trend for the next six months.",
+    "spread": null,
+    "samples": 1,
+    "mae": 40.01499999999999,
+    "naive_mae": 26.855,
+    "dir_hit": false,
+    "covered": false
+  },
+  {
+    "task": "oil",
+    "model": "gpt-oss-20b",
+    "variant": "baseline",
+    "cutoff": "2022-12",
+    "period": "seen",
+    "last": 76.44,
+    "actual": [
+      78.12,
+      76.83,
+      73.28,
+      79.45,
+      71.58,
+      70.25
+    ],
+    "valid": true,
+    "forecast": [
+      77.5,
+      76.8,
+      75.5,
+      73.9,
+      72.4,
+      71.0
+    ],
+    "low": 70.0,
+    "high": 73.0,
+    "direction": "down",
+    "confidence": 60.0,
+    "reasoning": "After a peak in mid\u20112022, WTI has been in a gradual decline with seasonal dips, so the trend suggests a modest further drop through early 2023.",
+    "spread": null,
+    "samples": 1,
+    "mae": 1.6650000000000016,
+    "naive_mae": 3.215000000000001,
+    "dir_hit": true,
+    "covered": true
+  },
+  {
+    "task": "oil",
+    "model": "gpt-oss-20b",
+    "variant": "baseline",
+    "cutoff": "2024-12",
+    "period": "unseen",
+    "last": 70.12,
+    "actual": [
+      75.74,
+      71.53,
+      68.24,
+      63.54,
+      62.17,
+      68.17
+    ],
+    "valid": true,
+    "forecast": [
+      78.5,
+      78.3,
+      78.1,
+      77.9,
+      77.7,
+      77.5
+    ],
+    "low": 76.0,
+    "high": 78.0,
+    "direction": "down",
+    "confidence": 60.0,
+    "reasoning": "The past year shows a mild downward trend with prices hovering around $78, so a gradual decline into early 2025 is expected.",
+    "spread": null,
+    "samples": 1,
+    "mae": 9.768333333333334,
+    "naive_mae": 4.231666666666668,
+    "dir_hit": false,
+    "covered": false
+  },
+  {
+    "task": "oil",
+    "model": "gpt-oss-20b",
+    "variant": "baseline",
+    "cutoff": "2025-06",
+    "period": "unseen",
+    "last": 68.17,
+    "actual": [
+      68.39,
+      64.86,
+      63.96,
+      60.89,
+      60.06,
+      57.97
+    ],
+    "valid": true,
+    "forecast": [
+      70.0,
+      68.0,
+      66.0,
+      64.0,
+      62.0,
+      60.0
+    ],
+    "low": 58.0,
+    "high": 62.0,
+    "direction": "down",
+    "confidence": 60.0,
+    "reasoning": "Linear regression on the most recent six\u2011month data shows a consistent decline of about $2 per month, projecting a modest drop through the end of 2025.",
+    "spread": null,
+    "samples": 1,
+    "mae": 2.311666666666666,
+    "naive_mae": 5.555000000000001,
+    "dir_hit": true,
+    "covered": false
+  },
+  {
+    "task": "oil",
+    "model": "gpt-oss-20b",
+    "variant": "baseline",
+    "cutoff": "2025-12",
+    "period": "unseen",
+    "last": 57.97,
+    "actual": [
+      60.04,
+      64.51,
+      91.38,
+      100.32,
+      102.13,
+      84.81
+    ],
+    "valid": true,
+    "forecast": [
+      57.5,
+      57.0,
+      56.5,
+      56.0,
+      55.5,
+      55.0
+    ],
+    "low": 54.5,
+    "high": 55.5,
+    "direction": "down",
+    "confidence": 70.0,
+    "reasoning": "Recent data show a steady decline and a linear trend predicts prices to continue falling modestly over the next six months.",
+    "spread": null,
+    "samples": 1,
+    "mae": 27.615,
+    "naive_mae": 25.895,
+    "dir_hit": false,
+    "covered": false
+  },
+  {
+    "task": "stock",
+    "model": "gpt-oss-120b",
+    "variant": "baseline",
+    "cutoff": "2021-12",
+    "period": "seen",
+    "last": 0.0,
+    "actual": [
+      -20.58
+    ],
+    "valid": true,
+    "forecast": [
+      5.2
+    ],
+    "low": 2.0,
+    "high": 9.0,
+    "direction": "up",
+    "confidence": 70.0,
+    "drivers": [
+      "moderate monetary easing",
+      "persistent inflation pressures"
+    ],
+    "reasoning": "With the Fed keeping rates low and the 10\u2011year yield still modestly higher, equity valuations remain attractive, though high inflation may temper enthusiasm, leading to modest upside over the next six months.",
+    "spread": null,
+    "mae": 25.7783247800125,
+    "naive_mae": 20.5783247800125,
+    "dir_hit": "False",
+    "covered": "False"
+  },
+  {
+    "task": "stock",
+    "model": "gpt-oss-120b",
+    "variant": "baseline",
+    "cutoff": "2022-06",
+    "period": "seen",
+    "last": 0.0,
+    "actual": [
+      1.43
+    ],
+    "valid": true,
+    "forecast": [
+      -7.2
+    ],
+    "low": -12.0,
+    "high": -3.5,
+    "direction": "down",
+    "confidence": 78.0,
+    "drivers": [
+      "Rapid rise in Fed funds and 10\u2011yr yield",
+      "Persistently high inflation eroding corporate margins"
+    ],
+    "reasoning": "The steep increase in interest rates combined with inflation above target has already pulled the S&P 500 down ~20% since early 2022, suggesting continued pressure and a likely further decline of roughly 5\u201110% over the next six months.",
+    "spread": null,
+    "mae": 8.629711151852643,
+    "naive_mae": 1.4297111518526417,
+    "dir_hit": "False",
+    "covered": "False"
+  },
+  {
+    "task": "stock",
+    "model": "gpt-oss-120b",
+    "variant": "baseline",
+    "cutoff": "2022-12",
+    "period": "seen",
+    "last": 0.0,
+    "actual": [
+      15.91
+    ],
+    "valid": true,
+    "forecast": [
+      -6.2
+    ],
+    "low": -12.5,
+    "high": -1.0,
+    "direction": "down",
+    "confidence": 78.0,
+    "drivers": [
+      "continued high Fed funds and Treasury yields",
+      "inflation still above target causing risk aversion"
+    ],
+    "reasoning": "With rates rising sharply over the past year and yields still elevated, equities face valuation pressure and reduced risk appetite, likely pulling the S&P 500 lower over the next six months.",
+    "spread": null,
+    "mae": 22.110405000651127,
+    "naive_mae": 15.910405000651128,
+    "dir_hit": "False",
+    "covered": "False"
+  },
+  {
+    "task": "stock",
+    "model": "gpt-oss-120b",
+    "variant": "baseline",
+    "cutoff": "2024-12",
+    "period": "unseen",
+    "last": 0.0,
+    "actual": [
+      5.5
+    ],
+    "valid": true,
+    "forecast": [
+      5.2
+    ],
+    "low": 3.8,
+    "high": 6.6,
+    "direction": "up",
+    "confidence": 78.0,
+    "drivers": [
+      "moderate rate cuts",
+      "declining inflation"
+    ],
+    "reasoning": "The recent easing of monetary policy and falling inflation have historically supported equity gains, and the S&P 500 has shown a 10\u2011month upward trend despite higher yields, suggesting a modest continuation.",
+    "spread": null,
+    "mae": 0.297115595506674,
+    "naive_mae": 5.497115595506674,
+    "dir_hit": "True",
+    "covered": "True"
+  },
+  {
+    "task": "stock",
+    "model": "gpt-oss-120b",
+    "variant": "baseline",
+    "cutoff": "2025-06",
+    "period": "unseen",
+    "last": 0.0,
+    "actual": [
+      10.32
+    ],
+    "valid": true,
+    "forecast": [
+      4.8
+    ],
+    "low": 3.5,
+    "high": 6.2,
+    "direction": "up",
+    "confidence": 68.0,
+    "drivers": [
+      "lower fed funds rate supporting equities",
+      "moderate inflation easing but yields remain elevated"
+    ],
+    "reasoning": "The recent reduction in the policy rate and a flattening of inflation suggest continued equity optimism, though higher long\u2011term yields temper the upside, leading to a modest 4\u20116% gain forecast.",
+    "spread": null,
+    "mae": 5.5232096954850585,
+    "naive_mae": 10.323209695485058,
+    "dir_hit": "True",
+    "covered": "False"
+  },
+  {
+    "task": "stock",
+    "model": "gpt-oss-120b",
+    "variant": "baseline",
+    "cutoff": "2025-12",
+    "period": "unseen",
+    "last": 0.0,
+    "actual": [
+      9.55
+    ],
+    "valid": true,
+    "forecast": [
+      3.2
+    ],
+    "low": 2.5,
+    "high": 4.0,
+    "direction": "up",
+    "confidence": 78.0,
+    "drivers": [
+      "continued easing of fed funds rate",
+      "moderate inflation keeping real yields attractive"
+    ],
+    "reasoning": "The Fed has lowered rates to 3.72% and Treasury yields have slipped modestly, supporting equity valuations, while inflation remains near target, suggesting a bullish bias for the S&P 500 over the next six months.",
+    "spread": null,
+    "mae": 6.351676283690003,
+    "naive_mae": 9.551676283690004,
+    "dir_hit": "True",
+    "covered": "False"
+  },
+  {
+    "task": "oil",
+    "model": "gpt-oss-120b",
+    "variant": "baseline",
+    "cutoff": "2021-12",
+    "period": "seen",
+    "last": 71.71,
+    "actual": [
+      83.22,
+      91.64,
+      108.5,
+      101.78,
+      109.55,
+      114.84
+    ],
+    "valid": true,
+    "forecast": [
+      73.2,
+      75.4,
+      77.6,
+      79.8,
+      82.0,
+      84.2
+    ],
+    "low": 80.0,
+    "high": 86.0,
+    "direction": "up",
+    "confidence": 70.0,
+    "reasoning": "After a strong rebound in 2021 ending around $71.7 per barrel, the trend suggests continued moderate growth into early 2022, tempered by typical seasonal volatility.",
+    "spread": null,
+    "samples": 1,
+    "mae": 22.888333333333332,
+    "naive_mae": 29.87833333333334,
+    "dir_hit": true,
+    "covered": false
+  },
+  {
+    "task": "oil",
+    "model": "gpt-oss-120b",
+    "variant": "baseline",
+    "cutoff": "2022-06",
+    "period": "seen",
+    "last": 114.84,
+    "actual": [
+      101.62,
+      93.67,
+      84.26,
+      87.55,
+      84.37,
+      76.44
+    ],
+    "valid": true,
+    "forecast": [
+      119.5,
+      123.0,
+      127.5,
+      132.0,
+      136.5,
+      141.0
+    ],
+    "low": 120.0,
+    "high": 140.0,
+    "direction": "up",
+    "confidence": 65.0,
+    "reasoning": "After a steep rise in early 2022, prices have been trending upward with monthly gains of 5\u201110\u202f$, suggesting continued moderate growth through the second half of the year.",
+    "spread": null,
+    "samples": 1,
+    "mae": 41.931666666666665,
+    "naive_mae": 26.855,
+    "dir_hit": false,
+    "covered": false
+  },
+  {
+    "task": "oil",
+    "model": "gpt-oss-120b",
+    "variant": "baseline",
+    "cutoff": "2022-12",
+    "period": "seen",
+    "last": 76.44,
+    "actual": [
+      78.12,
+      76.83,
+      73.28,
+      79.45,
+      71.58,
+      70.25
+    ],
+    "valid": true,
+    "forecast": [
+      70.2,
+      66.8,
+      63.5,
+      60.9,
+      58.3,
+      55.7
+    ],
+    "low": 50.0,
+    "high": 60.0,
+    "direction": "down",
+    "confidence": 72.0,
+    "reasoning": "After a sharp decline in late 2022, the price trend shows a gradual downward momentum, so a modest further decrease is projected for the first half of 2023.",
+    "spread": null,
+    "samples": 1,
+    "mae": 12.351666666666668,
+    "naive_mae": 3.215000000000001,
+    "dir_hit": true,
+    "covered": false
+  },
+  {
+    "task": "oil",
+    "model": "gpt-oss-120b",
+    "variant": "baseline",
+    "cutoff": "2024-12",
+    "period": "unseen",
+    "last": 70.12,
+    "actual": [
+      75.74,
+      71.53,
+      68.24,
+      63.54,
+      62.17,
+      68.17
+    ],
+    "valid": true,
+    "forecast": [
+      71.2,
+      71.8,
+      71.0,
+      70.3,
+      69.5,
+      68.7
+    ],
+    "low": 66.0,
+    "high": 70.0,
+    "direction": "down",
+    "confidence": 65.0,
+    "reasoning": "After a gradual decline from mid\u20112024 lows around $70, the series shows a modest downward momentum, suggesting further easing into early 2025.",
+    "spread": null,
+    "samples": 1,
+    "mae": 3.698333333333332,
+    "naive_mae": 4.231666666666668,
+    "dir_hit": true,
+    "covered": true
+  },
+  {
+    "task": "oil",
+    "model": "gpt-oss-120b",
+    "variant": "baseline",
+    "cutoff": "2025-06",
+    "period": "unseen",
+    "last": 68.17,
+    "actual": [
+      68.39,
+      64.86,
+      63.96,
+      60.89,
+      60.06,
+      57.97
+    ],
+    "valid": true,
+    "forecast": [
+      66.0,
+      64.0,
+      62.0,
+      60.0,
+      58.0,
+      57.0
+    ],
+    "low": 55.0,
+    "high": 60.0,
+    "direction": "down",
+    "confidence": 70.0,
+    "reasoning": "The recent six-month trend shows a steady decline from $75.74 to $68.17, suggesting continuation of the downward momentum into the latter half of 2025.",
+    "spread": null,
+    "samples": 1,
+    "mae": 1.5216666666666672,
+    "naive_mae": 5.555000000000001,
+    "dir_hit": true,
+    "covered": true
+  },
+  {
+    "task": "oil",
+    "model": "gpt-oss-120b",
+    "variant": "baseline",
+    "cutoff": "2025-12",
+    "period": "unseen",
+    "last": 57.97,
+    "actual": [
+      60.04,
+      64.51,
+      91.38,
+      100.32,
+      102.13,
+      84.81
+    ],
+    "valid": true,
+    "forecast": [
+      55.2,
+      52.1,
+      49.0,
+      45.9,
+      42.8,
+      39.7
+    ],
+    "low": 38.0,
+    "high": 42.0,
+    "direction": "down",
+    "confidence": 65.0,
+    "reasoning": "The series shows a clear downward trajectory in 2025, with prices falling from $75.74 to $57.97, suggesting continued decline into early 2026.",
+    "spread": null,
+    "samples": 1,
+    "mae": 36.415,
+    "naive_mae": 25.895,
+    "dir_hit": false,
+    "covered": false
+  }
+]

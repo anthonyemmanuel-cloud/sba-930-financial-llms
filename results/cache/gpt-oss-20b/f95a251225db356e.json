@@ -1,0 +1,9 @@
+{
+  "model": "gpt-oss-20b",
+  "temperature": 1.0,
+  "json_mode": false,
+  "sample": 0,
+  "system": "",
+  "user": "Forecast US consumer price inflation for the next 6 months.\n\nUS CPI inflation, percent change from the same month a year earlier:\n2022-07: 8.5\n2022-08: 8.2\n2022-09: 8.2\n2022-10: 7.8\n2022-11: 7.1\n2022-12: 6.4\n2023-01: 6.3\n2023-02: 6.0\n2023-03: 4.9\n2023-04: 5.0\n2023-05: 4.1\n2023-06: 3.1\n2023-07: 3.3\n2023-08: 3.7\n2023-09: 3.7\n2023-10: 3.2\n2023-11: 3.1\n2023-12: 3.3\n2024-01: 3.1\n2024-02: 3.2\n2024-03: 3.5\n2024-04: 3.4\n2024-05: 3.2\n2024-06: 3.0\n2024-07: 2.9\n2024-08: 2.6\n2024-09: 2.4\n2024-10: 2.6\n2024-11: 2.7\n2024-12: 2.9\n2025-01: 3.0\n2025-02: 2.8\n2025-03: 2.4\n2025-04: 2.3\n2025-05: 2.4\n2025-06: 2.7\n\nForecast the next 6 months (2025-07 to 2025-12).\nReply with JSON only, in this format:\n{\"forecast\": [one number per month, 6 numbers], \"low\": number, \"high\": number, \"direction\": \"up\" or \"down\" or \"flat\", \"confidence\": number from 0 to 100, \"reasoning\": \"one or two sentences\"}\n\"low\" and \"high\" are the range you expect the value for 2025-12 to fall in.",
+  "answer": "{\"forecast\":[2.5,2.4,2.3,2.3,2.3,2.4],\"low\":2.3,\"high\":2.5,\"direction\":\"down\",\"confidence\":80,\"reasoning\":\"Inflation has been steadily declining and is expected to continue easing into the second half of 2025, but will likely hover around the mid\u20112% range.\"}"
+}

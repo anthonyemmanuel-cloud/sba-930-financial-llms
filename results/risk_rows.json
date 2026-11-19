@@ -1,0 +1,565 @@
+[
+  {
+    "model": "gpt-oss-20b",
+    "month": "2008-10",
+    "levels": {
+      "market_volatility": null,
+      "credit": null,
+      "liquidity": null
+    },
+    "reference": {
+      "market_volatility": "High",
+      "credit": "High",
+      "liquidity": "High"
+    },
+    "evidence": {
+      "market_volatility": null,
+      "credit": null,
+      "liquidity": null
+    },
+    "mitigation": {},
+    "matches": 0,
+    "snapshot": {
+      "inflation": 3.73,
+      "fed_funds": 0.97,
+      "unemployment": 6.5,
+      "treasury_10y": 3.81,
+      "yield_curve": 2.2,
+      "sp500": null,
+      "oil": 76.61,
+      "vix": 61.18,
+      "vix_max": 80.06,
+      "credit_spread": 5.06,
+      "nfci": 2.51,
+      "sp500_3m": null
+    }
+  },
+  {
+    "model": "gpt-oss-20b",
+    "month": "2017-06",
+    "levels": {
+      "market_volatility": "Low",
+      "credit": "Low",
+      "liquidity": "Medium"
+    },
+    "reference": {
+      "market_volatility": "Low",
+      "credit": "Low",
+      "liquidity": "Low"
+    },
+    "evidence": {
+      "market_volatility": "The VIX average of 10.5 is well below its long\u2011run average of 19.5 and the highest daily level only reached 11.5, indicating subdued volatility.",
+      "credit": "The Baa spread of 2.18pp is slightly below the long\u2011run average of 2.35pp, and the 10\u2011yr/2\u2011yr spread of 0.84pp remains within typical ranges, suggesting stable credit conditions.",
+      "liquidity": "The Chicago Fed National Financial Conditions Index at -0.56 (negative indicates slightly looser conditions) combined with a modest 3\u2011month S&P gain and low unemployment implies liquidity is adequate but could tighten if conditions shift."
+    },
+    "mitigation": {
+      "market_volatility": [
+        "Use options or VIX\u2011linked ETFs to hedge against sudden spikes",
+        "Maintain a diversified asset mix with low\u2011correlation assets"
+      ],
+      "credit": [
+        "Implement dynamic credit limits and monitor Baa spreads regularly",
+        "Use credit default swaps to transfer downside exposure"
+      ],
+      "liquidity": [
+        "Maintain higher cash reserves and short\u2011term liquid assets",
+        "Enter into central bank liquidity lines or repo agreements for contingency"
+      ]
+    },
+    "matches": 2,
+    "snapshot": {
+      "inflation": 1.64,
+      "fed_funds": 1.04,
+      "unemployment": 4.3,
+      "treasury_10y": 2.19,
+      "yield_curve": 0.84,
+      "sp500": 2423.41,
+      "oil": 45.18,
+      "vix": 10.51,
+      "vix_max": 11.46,
+      "credit_spread": 2.18,
+      "nfci": -0.56,
+      "sp500_3m": 2.5686496918805535
+    }
+  },
+  {
+    "model": "gpt-oss-20b",
+    "month": "2020-03",
+    "levels": {
+      "market_volatility": "High",
+      "credit": "Medium",
+      "liquidity": "Low"
+    },
+    "reference": {
+      "market_volatility": "High",
+      "credit": "Medium",
+      "liquidity": "High"
+    },
+    "evidence": {
+      "market_volatility": "VIX average 57.7 far above long\u2011run 19.3, peak 82.7, and S&P 500 fell 20% in 3 months",
+      "credit": "Baa spread 3.42pp above long\u2011run 2.33pp, but Treasury spread 0.42pp indicates modest yield curve steepening",
+      "liquidity": "Chicago Fed NFCI at 0.09 (close to average 0) and Fed funds rate 0.65% suggest normal liquidity conditions"
+    },
+    "mitigation": {
+      "market_volatility": [
+        "Implement dynamic VaR limits and stress testing; use hedging instruments such as VIX futures or equity options",
+        "Maintain diversified asset allocation to reduce concentration risk"
+      ],
+      "credit": [
+        "Use credit default swaps or collateralized debt obligations to transfer credit exposure; conduct regular covenant monitoring of Baa issuers",
+        "Diversify across sectors and geographies to spread credit risk"
+      ],
+      "liquidity": [
+        "Maintain higher cash reserves and liquid securities to meet short\u2011term obligations; establish a liquidity contingency plan",
+        "Engage in liquidity coverage ratio (LCR) compliance and regular stress\u2011test scenarios"
+      ]
+    },
+    "matches": 2,
+    "snapshot": {
+      "inflation": 1.49,
+      "fed_funds": 0.65,
+      "unemployment": 4.4,
+      "treasury_10y": 0.87,
+      "yield_curve": 0.42,
+      "sp500": 2584.59,
+      "oil": 29.21,
+      "vix": 57.74,
+      "vix_max": 82.69,
+      "credit_spread": 3.42,
+      "nfci": 0.09,
+      "sp500_3m": -20.001052377444463
+    }
+  },
+  {
+    "model": "gpt-oss-20b",
+    "month": "2022-09",
+    "levels": {
+      "market_volatility": "High",
+      "credit": "Medium",
+      "liquidity": "Low"
+    },
+    "reference": {
+      "market_volatility": "Medium",
+      "credit": "Low",
+      "liquidity": "Medium"
+    },
+    "evidence": {
+      "market_volatility": "VIX monthly average 27.3 is above the long\u2011run average of 19.6, and the S&P\u202f500 fell 5.3% over the last three months, indicating heightened market uncertainty.",
+      "credit": "The Baa spread over the 10\u2011year Treasury is 2.17\u202fppt, slightly below the long\u2011run average of 2.32\u202fppt, and the 10\u2011year minus 2\u2011year Treasury spread is negative, signalling a flattening curve and moderate credit\u2011risk concerns.",
+      "liquidity": "The Chicago Fed National Financial Conditions Index is near zero at \u20130.14, unemployment is low at 3.5\u202f%, and no significant stress indicators are present, suggesting generally normal liquidity conditions."
+    },
+    "mitigation": {
+      "market_volatility": [
+        "Use dynamic asset\u2011allocation strategies to adjust equity\u2011to\u2011fixed income weighting during volatile periods",
+        "Implement volatility\u2011based hedging (e.g., VIX futures or options) to protect downside exposure"
+      ],
+      "credit": [
+        "Maintain diversified credit exposure across sectors and ratings to reduce concentration risk",
+        "Regularly monitor and update credit risk limits using forward\u2011looking macro\u2011economic indicators"
+      ],
+      "liquidity": [
+        "Hold a sufficient pool of high\u2011quality liquid assets (e.g., Treasury bills) to meet short\u2011term obligations",
+        "Implement robust liquidity monitoring tools and stress\u2011testing scenarios to ensure adequate cash buffers"
+      ]
+    },
+    "matches": 0,
+    "snapshot": {
+      "inflation": 8.19,
+      "fed_funds": 2.56,
+      "unemployment": 3.5,
+      "treasury_10y": 3.52,
+      "yield_curve": -0.34,
+      "sp500": 3585.62,
+      "oil": 84.26,
+      "vix": 27.34,
+      "vix_max": 32.6,
+      "credit_spread": 2.17,
+      "nfci": -0.14,
+      "sp500_3m": -5.2771452271634605
+    }
+  },
+  {
+    "model": "gpt-oss-20b",
+    "month": "2023-03",
+    "levels": {
+      "market_volatility": "Medium",
+      "credit": "Medium",
+      "liquidity": "Medium"
+    },
+    "reference": {
+      "market_volatility": "Medium",
+      "credit": "Low",
+      "liquidity": "Medium"
+    },
+    "evidence": {
+      "market_volatility": "VIX average at 21.6 is above its long\u2011run average of 19.7 and the VIX spike to 26.5 indicates heightened market uncertainty.",
+      "credit": "Baa spread narrowed to 2.05 from a long\u2011run average of 2.32, suggesting easing credit conditions but still above the risk\u2011free Treasury.",
+      "liquidity": "The 10\u2011year minus 2\u2011year Treasury spread is negative (-0.64), indicating a steepening yield curve and potential liquidity constraints in short\u2011term funding."
+    },
+    "mitigation": {
+      "market_volatility": [
+        "Implement dynamic hedging of equity and volatility exposure using VIX futures or options",
+        "Maintain diversified asset allocation to reduce concentration in high\u2011volatility sectors"
+      ],
+      "credit": [
+        "Enhance credit risk monitoring with tighter covenant oversight and stress testing",
+        "Diversify funding sources to mitigate reliance on single high\u2011risk issuers"
+      ],
+      "liquidity": [
+        "Build higher liquidity reserves and maintain a diversified mix of funding maturities",
+        "Engage in contingency funding plans and establish credit lines with banks"
+      ]
+    },
+    "matches": 2,
+    "snapshot": {
+      "inflation": 4.92,
+      "fed_funds": 4.65,
+      "unemployment": 3.5,
+      "treasury_10y": 3.66,
+      "yield_curve": -0.64,
+      "sp500": 4109.31,
+      "oil": 73.28,
+      "vix": 21.64,
+      "vix_max": 26.52,
+      "credit_spread": 2.05,
+      "nfci": -0.18,
+      "sp500_3m": 7.027217085558024
+    }
+  },
+  {
+    "model": "gpt-oss-20b",
+    "month": "2025-04",
+    "levels": {
+      "market_volatility": "High",
+      "credit": "Low",
+      "liquidity": "Medium"
+    },
+    "reference": {
+      "market_volatility": "High",
+      "credit": "Low",
+      "liquidity": "Low"
+    },
+    "evidence": {
+      "market_volatility": "The VIX monthly average of 32.0 and a peak of 52.3 far exceed the long\u2011run average of 19.5, indicating sharp market volatility.",
+      "credit": "Baa corporate bond spread of 1.90% is below the long\u2011run average of 2.29%, and the 10\u2011year minus 2\u2011year Treasury spread of 0.50% suggests limited credit tightening.",
+      "liquidity": "The Chicago Fed National Financial Conditions Index of -0.39 signals slightly tighter conditions, and a -7.8% decline in the S&P 500 over three months indicates moderate stress on liquidity."
+    },
+    "mitigation": {
+      "market_volatility": [
+        "Use volatility hedging strategies such as VIX futures or options to protect equity exposure.",
+        "Implement dynamic asset\u2011allocation shifts to reduce concentration in highly volatile sectors."
+      ],
+      "credit": [
+        "Maintain higher quality credit buffers by holding a larger proportion of investment\u2011grade bonds.",
+        "Diversify loan portfolios across sectors and geographies to mitigate concentration risk."
+      ],
+      "liquidity": [
+        "Increase cash reserves and maintain strong liquidity coverage ratios to absorb market shocks.",
+        "Establish counterparty credit limits and regularly stress test liquidity under adverse market scenarios."
+      ]
+    },
+    "matches": 2,
+    "snapshot": {
+      "inflation": 2.33,
+      "fed_funds": 4.33,
+      "unemployment": 4.2,
+      "treasury_10y": 4.28,
+      "yield_curve": 0.5,
+      "sp500": 5569.06,
+      "oil": 63.54,
+      "vix": 31.97,
+      "vix_max": 52.33,
+      "credit_spread": 1.9,
+      "nfci": -0.39,
+      "sp500_3m": -7.805109816522715
+    }
+  },
+  {
+    "model": "gpt-oss-120b",
+    "month": "2008-10",
+    "levels": {
+      "market_volatility": "High",
+      "credit": "High",
+      "liquidity": "Medium"
+    },
+    "reference": {
+      "market_volatility": "High",
+      "credit": "High",
+      "liquidity": "High"
+    },
+    "evidence": {
+      "market_volatility": "The VIX averaged 61.2 in October 2008, far above its long\u2011run average of 19.4, indicating extreme market turbulence.",
+      "credit": "The Baa corporate bond spread was 5.06\u202fpp, more than double its historical average of 2.11\u202fpp, signaling stressed credit conditions.",
+      "liquidity": "The Chicago Fed NFCC index of 2.51 shows tighter\u2011than\u2011average financial conditions, while the policy rate is near zero, suggesting moderate but not catastrophic liquidity strain."
+    },
+    "mitigation": {
+      "market_volatility": [
+        "Implement dynamic hedging programs (e.g., VIX futures, options, or delta\u2011neutral equity strategies) to offset sudden price swings.",
+        "Adopt stricter position limits and stop\u2011loss controls to cap exposure during periods of heightened volatility."
+      ],
+      "credit": [
+        "Increase credit quality filters and reduce exposure to lower\u2011rated issuers; shift portfolio weight toward investment\u2011grade and government securities.",
+        "Utilize credit default swaps or other credit\u2011derivative protection to hedge against default risk on high\u2011spread corporate exposures."
+      ],
+      "liquidity": [
+        "Maintain higher cash and high\u2011quality liquid asset buffers (e.g., Treasury bills) to meet short\u2011term funding needs.",
+        "Establish diversified funding sources, including committed lines of credit and repo arrangements, to reduce reliance on volatile market funding."
+      ]
+    },
+    "matches": 2,
+    "snapshot": {
+      "inflation": 3.73,
+      "fed_funds": 0.97,
+      "unemployment": 6.5,
+      "treasury_10y": 3.81,
+      "yield_curve": 2.2,
+      "sp500": null,
+      "oil": 76.61,
+      "vix": 61.18,
+      "vix_max": 80.06,
+      "credit_spread": 5.06,
+      "nfci": 2.51,
+      "sp500_3m": null
+    }
+  },
+  {
+    "model": "gpt-oss-120b",
+    "month": "2017-06",
+    "levels": {
+      "market_volatility": "Low",
+      "credit": "Low",
+      "liquidity": "Low"
+    },
+    "reference": {
+      "market_volatility": "Low",
+      "credit": "Low",
+      "liquidity": "Low"
+    },
+    "evidence": {
+      "market_volatility": "VIX monthly average 10.5 and peak 11.5 are well below the long\u2011run average of 19.5, indicating subdued market turbulence.",
+      "credit": "Baa corporate bond spread is 2.18\u202fpp, tighter than the long\u2011run average of 2.35\u202fpp, suggesting relatively low credit stress.",
+      "liquidity": "Fed funds rate at 1.04% with a negative Chicago Fed Financial Conditions Index (-0.56) and a narrow 10y\u20112y Treasury spread (0.84\u202fpp) point to ample liquidity and easy financing conditions."
+    },
+    "mitigation": {
+      "market_volatility": [
+        "Maintain a diversified portfolio of assets with low\u2011correlation to equities to dampen any unexpected spikes in volatility.",
+        "Use options or variance swaps to hedge against sudden VIX spikes, even though current risk is low."
+      ],
+      "credit": [
+        "Implement a dynamic credit scoring model that continuously monitors spread movements and counterparty ratings.",
+        "Set exposure limits for Baa\u2011rated issuers and increase reliance on higher\u2011quality (Aa/AAA) securities as a precaution."
+      ],
+      "liquidity": [
+        "Keep a buffer of high\u2011quality liquid assets (e.g., Treasury bills) equal to at least 15\u201120% of short\u2011term liabilities.",
+        "Establish committed credit lines with multiple banks to ensure funding access if market conditions tighten suddenly."
+      ]
+    },
+    "matches": 3,
+    "snapshot": {
+      "inflation": 1.64,
+      "fed_funds": 1.04,
+      "unemployment": 4.3,
+      "treasury_10y": 2.19,
+      "yield_curve": 0.84,
+      "sp500": 2423.41,
+      "oil": 45.18,
+      "vix": 10.51,
+      "vix_max": 11.46,
+      "credit_spread": 2.18,
+      "nfci": -0.56,
+      "sp500_3m": 2.5686496918805535
+    }
+  },
+  {
+    "model": "gpt-oss-120b",
+    "month": "2020-03",
+    "levels": {
+      "market_volatility": "High",
+      "credit": "High",
+      "liquidity": "Medium"
+    },
+    "reference": {
+      "market_volatility": "High",
+      "credit": "Medium",
+      "liquidity": "High"
+    },
+    "evidence": {
+      "market_volatility": "The VIX monthly average of 57.7 and a peak of 82.7 are far above the long\u2011run average of 19.3, indicating extreme market turbulence.",
+      "credit": "The Baa corporate bond spread is 3.42\u202fppt, notably above its long\u2011run average of 2.33\u202fppt, signaling heightened credit risk in the corporate sector.",
+      "liquidity": "The Chicago Fed Financial Conditions Index is slightly positive (0.09) and the 10\u2011year/2\u2011year spread is compressed to 0.42\u202fppt, suggesting tighter financing conditions but not a full liquidity crunch."
+    },
+    "mitigation": {
+      "market_volatility": [
+        "Increase use of option overlays (e.g., protective puts or collars) to hedge equity exposure during periods of elevated VIX.",
+        "Diversify into low\u2011beta or non\u2011correlated asset classes such as short\u2011duration government bonds or commodities to reduce portfolio sensitivity to market swings."
+      ],
+      "credit": [
+        "Tighten credit underwriting standards and raise minimum credit quality thresholds for new loan commitments.",
+        "Shift portfolio weight toward higher\u2011rated securities and increase holdings of investment\u2011grade corporate bonds or loan participation with strong covenants."
+      ],
+      "liquidity": [
+        "Maintain higher cash and high\u2011quality liquid asset buffers (e.g., Treasury bills) to meet short\u2011term funding needs.",
+        "Secure committed lines of credit and diversify funding sources across repos, commercial paper, and unsecured borrowing to reduce reliance on any single market segment."
+      ]
+    },
+    "matches": 1,
+    "snapshot": {
+      "inflation": 1.49,
+      "fed_funds": 0.65,
+      "unemployment": 4.4,
+      "treasury_10y": 0.87,
+      "yield_curve": 0.42,
+      "sp500": 2584.59,
+      "oil": 29.21,
+      "vix": 57.74,
+      "vix_max": 82.69,
+      "credit_spread": 3.42,
+      "nfci": 0.09,
+      "sp500_3m": -20.001052377444463
+    }
+  },
+  {
+    "model": "gpt-oss-120b",
+    "month": "2022-09",
+    "levels": {
+      "market_volatility": "High",
+      "credit": "Low",
+      "liquidity": "Medium"
+    },
+    "reference": {
+      "market_volatility": "Medium",
+      "credit": "Low",
+      "liquidity": "Medium"
+    },
+    "evidence": {
+      "market_volatility": "The VIX monthly average of 27.3 and a peak of 32.6 are far above its long\u2011run average of 19.6, indicating elevated market turbulence.",
+      "credit": "The Baa corporate bond spread is 2.17\u202fpp, tighter than its long\u2011run average of 2.32\u202fpp, suggesting relatively modest credit stress.",
+      "liquidity": "An inverted 10\u2011yr/2\u2011yr spread of \u20130.34\u202fpp, a modestly positive Fed Funds rate (2.56\u202f%) and a slightly below\u2011average financial conditions index (\u20110.14) point to emerging liquidity pressures despite generally normal conditions."
+    },
+    "mitigation": {
+      "market_volatility": [
+        "Increase the use of option overlays and dynamic hedges (e.g., VIX futures, variance swaps) to protect portfolio value during spikes in volatility.",
+        "Implement stricter position\u2011size limits and real\u2011time VaR monitoring to curb exposure when volatility metrics breach predefined thresholds."
+      ],
+      "credit": [
+        "Maintain a diversified credit portfolio with a focus on higher\u2011quality (AAA/AA) issuers and continuously monitor Baa spread trends for early signs of deterioration.",
+        "Use credit default swaps (CDS) or total return swaps to hedge exposure to specific corporate bond positions that show widening spreads."
+      ],
+      "liquidity": [
+        "Hold a higher proportion of high\u2011quality liquid assets (e.g., Treasury bills, overnight repos) to meet sudden funding demands.",
+        "Establish committed credit lines and staggered funding maturities to reduce reliance on short\u2011term wholesale funding that could dry up in a tightening market."
+      ]
+    },
+    "matches": 2,
+    "snapshot": {
+      "inflation": 8.19,
+      "fed_funds": 2.56,
+      "unemployment": 3.5,
+      "treasury_10y": 3.52,
+      "yield_curve": -0.34,
+      "sp500": 3585.62,
+      "oil": 84.26,
+      "vix": 27.34,
+      "vix_max": 32.6,
+      "credit_spread": 2.17,
+      "nfci": -0.14,
+      "sp500_3m": -5.2771452271634605
+    }
+  },
+  {
+    "model": "gpt-oss-120b",
+    "month": "2023-03",
+    "levels": {
+      "market_volatility": "Medium",
+      "credit": "Low",
+      "liquidity": "Medium"
+    },
+    "reference": {
+      "market_volatility": "Medium",
+      "credit": "Low",
+      "liquidity": "Medium"
+    },
+    "evidence": {
+      "market_volatility": "The VIX average of 21.6 is above its long\u2011run average of 19.7, indicating elevated but not extreme market turbulence.",
+      "credit": "The Baa spread of 2.05\u202fppt is tighter than the long\u2011run average of 2.32\u202fppt, suggesting improving credit conditions.",
+      "liquidity": "The Chicago Fed NFCCI at \u20130.18 (near neutral) combined with an inverted 10\u2011yr/2\u2011yr spread of \u20130.64\u202fppt points to modest funding strain without a full liquidity crunch."
+    },
+    "mitigation": {
+      "market_volatility": [
+        "Increase use of option overlays and volatility swaps to hedge portfolio exposure to sudden spikes in the VIX.",
+        "Diversify across asset classes and geographies to reduce concentration risk from U.S. equity market swings."
+      ],
+      "credit": [
+        "Maintain stricter underwriting standards and higher minimum credit quality thresholds for new loan originations.",
+        "Allocate a larger portion of the investment portfolio to high\u2011quality sovereign and investment\u2011grade corporate bonds to cushion any potential credit deterioration."
+      ],
+      "liquidity": [
+        "Hold a higher proportion of high\u2011quality liquid assets (e.g., Treasury bills, agency securities) to meet short\u2011term cash needs under tightening conditions.",
+        "Establish committed credit lines and liquidity facilities with multiple counterparties to ensure access to funding if market stress intensifies."
+      ]
+    },
+    "matches": 3,
+    "snapshot": {
+      "inflation": 4.92,
+      "fed_funds": 4.65,
+      "unemployment": 3.5,
+      "treasury_10y": 3.66,
+      "yield_curve": -0.64,
+      "sp500": 4109.31,
+      "oil": 73.28,
+      "vix": 21.64,
+      "vix_max": 26.52,
+      "credit_spread": 2.05,
+      "nfci": -0.18,
+      "sp500_3m": 7.027217085558024
+    }
+  },
+  {
+    "model": "gpt-oss-120b",
+    "month": "2025-04",
+    "levels": {
+      "market_volatility": "High",
+      "credit": "Low",
+      "liquidity": "Medium"
+    },
+    "reference": {
+      "market_volatility": "High",
+      "credit": "Low",
+      "liquidity": "Low"
+    },
+    "evidence": {
+      "market_volatility": "The VIX monthly average of 32.0 is well above its long\u2011run average of 19.5, and the peak of 52.3 signals extreme market turbulence.",
+      "credit": "The Baa corporate bond spread is 1.90\u202fppt, tighter than the long\u2011run average of 2.29\u202fppt, indicating reduced default risk perception.",
+      "liquidity": "The Chicago Fed National Financial Conditions Index at \u20130.39 and a flattened 10\u2011year/2\u2011year Treasury spread of 0.50\u202fppt point to modestly tighter funding conditions."
+    },
+    "mitigation": {
+      "market_volatility": [
+        "Increase use of options and variance swaps to hedge portfolio exposure to large price swings.",
+        "Diversify assets across low\u2011beta sectors and non\u2011correlated alternative investments to reduce overall volatility sensitivity."
+      ],
+      "credit": [
+        "Maintain a conservative credit quality mix, emphasizing investment\u2011grade issuers and reducing exposure to high\u2011yield names.",
+        "Implement dynamic credit monitoring with forward\u2011looking metrics (e.g., CDS spreads, earnings trends) to adjust limits proactively."
+      ],
+      "liquidity": [
+        "Hold a higher proportion of high\u2011quality liquid assets (e.g., Treasury bills, overnight repos) to meet short\u2011term cash needs.",
+        "Establish committed credit lines and staggered funding maturities to smooth out potential roll\u2011over pressures."
+      ]
+    },
+    "matches": 2,
+    "snapshot": {
+      "inflation": 2.33,
+      "fed_funds": 4.33,
+      "unemployment": 4.2,
+      "treasury_10y": 4.28,
+      "yield_curve": 0.5,
+      "sp500": 5569.06,
+      "oil": 63.54,
+      "vix": 31.97,
+      "vix_max": 52.33,
+      "credit_spread": 1.9,
+      "nfci": -0.39,
+      "sp500_3m": -7.805109816522715
+    }
+  }
+]

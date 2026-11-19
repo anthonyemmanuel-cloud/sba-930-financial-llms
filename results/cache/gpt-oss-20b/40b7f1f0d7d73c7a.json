@@ -1,0 +1,9 @@
+{
+  "model": "gpt-oss-20b",
+  "temperature": 0.0,
+  "json_mode": true,
+  "sample": 0,
+  "system": "You are a careful quantitative financial analyst. Use only the data you are given. Do not invent news, events or numbers. When the data does not support a strong view, stay close to the most recent value and say so in your reasoning.",
+  "user": "Forecast US real GDP growth for the next 4 quarters.\n\nUS real GDP growth by quarter, annualized percent change from the previous quarter:\n2019Q1: 2.5\n2019Q2: 3.4\n2019Q3: 4.8\n2019Q4: 2.8\n2020Q1: -5.2\n2020Q2: -28.0\n2020Q3: 34.9\n2020Q4: 4.6\n2021Q1: 6.2\n2021Q2: 7.1\n2021Q3: 3.2\n2021Q4: 6.8\n\nStatistics calculated from the data above:\n- Latest value: 6.8\n- Change over the last quarter: +3.6\n- Change over the last 2 quarters: -0.3\n- Change over the last 4 quarters: +2.2\n- Average over the whole period shown: 3.6\n- Typical size of one period's change (standard deviation): 22.4\n- Naive forecast (repeat the latest value every period): 6.8\n\nForecast the next 4 quarters (2022Q1 to 2022Q4).\nWork in three steps. 1) Start from the naive forecast. 2) Move away from it only when the trend, mean reversion or interest rate data gives a clear reason. 3) Set low and high so the actual value for 2022Q4 falls inside them about 8 times out of 10.\nReply with JSON only, in this format:\n{\"forecast\": [one number per quarter, 4 numbers], \"low\": number, \"high\": number, \"direction\": \"up\" or \"down\" or \"flat\", \"confidence\": number from 0 to 100, \"reasoning\": \"one or two sentences\"}",
+  "answer": "{\"forecast\":[6.8,6.8,6.8,6.8],\"low\":5.0,\"high\":8.0,\"direction\":\"flat\",\"confidence\":70,\"reasoning\":\"The recent data shows no clear upward or downward trend, so the naive forecast of 6.8% is retained. A range of 5\u20138% gives an 80% chance of covering the actual 2022Q4 value.\"}"
+}

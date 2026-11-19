@@ -1,0 +1,9 @@
+{
+  "model": "gpt-oss-120b",
+  "temperature": 1.0,
+  "json_mode": false,
+  "sample": 0,
+  "system": "",
+  "user": "Forecast US consumer price inflation for the next 6 months.\n\nUS CPI inflation, percent change from the same month a year earlier:\nt-35: 2.6\nt-34: 2.3\nt-33: 1.5\nt-32: 0.3\nt-31: 0.2\nt-30: 0.7\nt-29: 1.0\nt-28: 1.3\nt-27: 1.4\nt-26: 1.2\nt-25: 1.2\nt-24: 1.3\nt-23: 1.4\nt-22: 1.7\nt-21: 2.7\nt-20: 4.1\nt-19: 4.9\nt-18: 5.3\nt-17: 5.2\nt-16: 5.2\nt-15: 5.3\nt-14: 6.2\nt-13: 6.9\nt-12: 7.2\nt-11: 7.6\nt-10: 7.9\nt-9: 8.6\nt-8: 8.2\nt-7: 8.5\nt-6: 9.0\nt-5: 8.5\nt-4: 8.2\nt-3: 8.2\nt-2: 7.8\nt-1: 7.1\nt0: 6.4\n\nForecast the next 6 months (t+1 to t+6).\nReply with JSON only, in this format:\n{\"forecast\": [one number per month, 6 numbers], \"low\": number, \"high\": number, \"direction\": \"up\" or \"down\" or \"flat\", \"confidence\": number from 0 to 100, \"reasoning\": \"one or two sentences\"}\n\"low\" and \"high\" are the range you expect the value for t+6 to fall in.",
+  "answer": "{\n  \"forecast\": [5.9, 5.4, 5.0, 4.6, 4.2, 3.9],\n  \"low\": 3.5,\n  \"high\": 4.5,\n  \"direction\": \"down\",\n  \"confidence\": 70,\n  \"reasoning\": \"After a prolonged peak above 8%, CPI has been trending lower for several months and is now at 6.4%, suggesting a continued gradual decline toward the Fed's 2% target.\"\n}"
+}

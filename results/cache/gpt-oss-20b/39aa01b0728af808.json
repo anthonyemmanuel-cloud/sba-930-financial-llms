@@ -1,0 +1,9 @@
+{
+  "model": "gpt-oss-20b",
+  "temperature": 1.0,
+  "json_mode": false,
+  "sample": 0,
+  "system": "",
+  "user": "Forecast US real GDP growth for the next 4 quarters.\n\nUS real GDP growth by quarter, annualized percent change from the previous quarter:\n2022Q1: -1.0\n2022Q2: 0.6\n2022Q3: 2.7\n2022Q4: 2.7\n2023Q1: 3.4\n2023Q2: 2.2\n2023Q3: 4.5\n2023Q4: 3.6\n2024Q1: 1.4\n2024Q2: 3.6\n2024Q3: 3.2\n2024Q4: 2.4\n\nForecast the next 4 quarters (2025Q1 to 2025Q4).\nReply with JSON only, in this format:\n{\"forecast\": [one number per quarter, 4 numbers], \"low\": number, \"high\": number, \"direction\": \"up\" or \"down\" or \"flat\", \"confidence\": number from 0 to 100, \"reasoning\": \"one or two sentences\"}\n\"low\" and \"high\" are the range you expect the value for 2025Q4 to fall in.",
+  "answer": "{\"forecast\":[2.0,1.8,1.6,1.4],\"low\":1.2,\"high\":1.6,\"direction\":\"up\",\"confidence\":60,\"reasoning\":\"Recent data show a gradual decline in growth rates, suggesting a modest but still positive trajectory into 2025.\"}"
+}

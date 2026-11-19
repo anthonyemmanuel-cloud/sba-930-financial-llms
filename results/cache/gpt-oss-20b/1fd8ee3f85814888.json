@@ -1,0 +1,9 @@
+{
+  "model": "gpt-oss-20b",
+  "temperature": 1.0,
+  "json_mode": false,
+  "sample": 0,
+  "system": "",
+  "user": "Analyze historical financial data to predict future trends in commodity prices.\n\nMonthly average price of WTI crude oil, US dollars per barrel:\n2020-01: 57.52\n2020-02: 50.54\n2020-03: 29.21\n2020-04: 16.55\n2020-05: 28.56\n2020-06: 38.31\n2020-07: 40.71\n2020-08: 42.34\n2020-09: 39.63\n2020-10: 39.40\n2020-11: 40.94\n2020-12: 47.02\n2021-01: 52.00\n2021-02: 59.04\n2021-03: 62.33\n2021-04: 61.72\n2021-05: 65.17\n2021-06: 71.38\n2021-07: 72.49\n2021-08: 67.73\n2021-09: 71.65\n2021-10: 81.48\n2021-11: 79.15\n2021-12: 71.71\n2022-01: 83.22\n2022-02: 91.64\n2022-03: 108.50\n2022-04: 101.78\n2022-05: 109.55\n2022-06: 114.84\n2022-07: 101.62\n2022-08: 93.67\n2022-09: 84.26\n2022-10: 87.55\n2022-11: 84.37\n2022-12: 76.44\n\nForecast the next 6 months (2023-01 to 2023-06).\nReply with JSON only, in this format:\n{\"forecast\": [one number per month, 6 numbers], \"low\": number, \"high\": number, \"direction\": \"up\" or \"down\" or \"flat\", \"confidence\": number from 0 to 100, \"reasoning\": \"one or two sentences\"}\n\"low\" and \"high\" are the range you expect the value for 2023-06 to fall in.",
+  "answer": "{\"forecast\":[77.5,76.8,75.5,73.9,72.4,71.0],\"low\":70.0,\"high\":73.0,\"direction\":\"down\",\"confidence\":60,\"reasoning\":\"After a peak in mid\u20112022, WTI has been in a gradual decline with seasonal dips, so the trend suggests a modest further drop through early 2023.\"}"
+}

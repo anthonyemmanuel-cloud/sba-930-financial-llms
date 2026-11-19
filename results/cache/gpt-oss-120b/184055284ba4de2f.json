@@ -1,0 +1,9 @@
+{
+  "model": "gpt-oss-120b",
+  "temperature": 1.0,
+  "json_mode": false,
+  "sample": 0,
+  "system": "",
+  "user": "Analyze historical financial data to predict future trends in commodity prices.\n\nMonthly average price of WTI crude oil, US dollars per barrel:\nt-35: 57.35\nt-34: 54.81\nt-33: 56.95\nt-32: 53.96\nt-31: 57.03\nt-30: 59.88\nt-29: 57.52\nt-28: 50.54\nt-27: 29.21\nt-26: 16.55\nt-25: 28.56\nt-24: 38.31\nt-23: 40.71\nt-22: 42.34\nt-21: 39.63\nt-20: 39.40\nt-19: 40.94\nt-18: 47.02\nt-17: 52.00\nt-16: 59.04\nt-15: 62.33\nt-14: 61.72\nt-13: 65.17\nt-12: 71.38\nt-11: 72.49\nt-10: 67.73\nt-9: 71.65\nt-8: 81.48\nt-7: 79.15\nt-6: 71.71\nt-5: 83.22\nt-4: 91.64\nt-3: 108.50\nt-2: 101.78\nt-1: 109.55\nt0: 114.84\n\nForecast the next 6 months (t+1 to t+6).\nReply with JSON only, in this format:\n{\"forecast\": [one number per month, 6 numbers], \"low\": number, \"high\": number, \"direction\": \"up\" or \"down\" or \"flat\", \"confidence\": number from 0 to 100, \"reasoning\": \"one or two sentences\"}\n\"low\" and \"high\" are the range you expect the value for t+6 to fall in.",
+  "answer": "{\n  \"forecast\": [120.6, 126.4, 132.2, 138.0, 143.8, 149.6],\n  \"low\": 142,\n  \"high\": 158,\n  \"direction\": \"up\",\n  \"confidence\": 70,\n  \"reasoning\": \"Recent data shows a strong upward momentum, with prices rising about $5\u20116 per month over the last four months, so the model extrapolates that trend forward while allowing for moderate variability.\"\n}"
+}

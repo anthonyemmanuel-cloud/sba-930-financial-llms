@@ -1,0 +1,9 @@
+{
+  "model": "gpt-oss-120b",
+  "temperature": 1.0,
+  "json_mode": false,
+  "sample": 0,
+  "system": "",
+  "user": "Forecast US real GDP growth for the next 4 quarters.\n\nUS real GDP growth by quarter, annualized percent change from the previous quarter:\nt-11: 4.8\nt-10: 2.8\nt-9: -5.2\nt-8: -28.0\nt-7: 34.9\nt-6: 4.6\nt-5: 6.2\nt-4: 7.1\nt-3: 3.2\nt-2: 6.8\nt-1: -1.0\nt0: 0.6\n\nForecast the next 4 quarters (t+1 to t+4).\nReply with JSON only, in this format:\n{\"forecast\": [one number per quarter, 4 numbers], \"low\": number, \"high\": number, \"direction\": \"up\" or \"down\" or \"flat\", \"confidence\": number from 0 to 100, \"reasoning\": \"one or two sentences\"}\n\"low\" and \"high\" are the range you expect the value for t+4 to fall in.",
+  "answer": "{\n  \"forecast\": [1.2, 1.3, 1.4, 1.5],\n  \"low\": 1.0,\n  \"high\": 2.0,\n  \"direction\": \"up\",\n  \"confidence\": 65,\n  \"reasoning\": \"Recent quarters show a modest rebound after a dip, with growth stabilizing around 1\u20112%; the trend suggests a gradual upward trajectory over the next year.\"\n}"
+}

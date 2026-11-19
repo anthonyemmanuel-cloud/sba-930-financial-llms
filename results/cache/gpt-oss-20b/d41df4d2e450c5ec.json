@@ -1,0 +1,9 @@
+{
+  "model": "gpt-oss-20b",
+  "temperature": 1.0,
+  "json_mode": false,
+  "sample": 0,
+  "system": "",
+  "user": "Forecast US real GDP growth for the next 4 quarters.\n\nUS real GDP growth by quarter, annualized percent change from the previous quarter:\n2019Q1: 2.5\n2019Q2: 3.4\n2019Q3: 4.8\n2019Q4: 2.8\n2020Q1: -5.2\n2020Q2: -28.0\n2020Q3: 34.9\n2020Q4: 4.6\n2021Q1: 6.2\n2021Q2: 7.1\n2021Q3: 3.2\n2021Q4: 6.8\n\nForecast the next 4 quarters (2022Q1 to 2022Q4).\nReply with JSON only, in this format:\n{\"forecast\": [one number per quarter, 4 numbers], \"low\": number, \"high\": number, \"direction\": \"up\" or \"down\" or \"flat\", \"confidence\": number from 0 to 100, \"reasoning\": \"one or two sentences\"}\n\"low\" and \"high\" are the range you expect the value for 2022Q4 to fall in.",
+  "answer": "{\"forecast\":[3.5,2.8,2.0,1.5],\"low\":1.0,\"high\":2.0,\"direction\":\"down\",\"confidence\":70,\"reasoning\":\"Recent high growth in 2021 has tapered; a modest but consistent decline is expected over 2022.\"}"
+}
